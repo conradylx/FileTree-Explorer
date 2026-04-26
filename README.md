@@ -97,7 +97,6 @@ The application is small, most UI parts are used only once and adding more layer
 
 ## What I would improve with more time
 
-- Persist expanded/collapsed folder state
 - Improve tree keyboard accessibility
 - Add stronger schema validation for uploaded JSON
 - Add better empty states and error states
@@ -108,7 +107,6 @@ The application is small, most UI parts are used only once and adding more layer
 
 ## Known limitations
 
-- Expanded/collapsed folder state is not persisted after refresh
 - Search matches only node names, not file size or other metadata
 - Path resolution assumes unique child names inside the same folder
 - JSON validation is basic and checks only the expected shape
