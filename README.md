@@ -113,3 +113,19 @@ The application is small, most UI parts are used only once and adding more layer
 - Path resolution assumes unique child names inside the same folder
 - JSON validation is basic and checks only the expected shape
 - Very large trees may need optimization
+
+## CI/CD
+
+The project includes GitHub Actions workflows for continuous integration and Docker image verification.
+
+### CI
+
+On every push and pull request, the pipeline:
+
+- installs dependencies
+- runs tests
+- builds the application
+
+### Docker
+
+A separate workflow verifies that the Docker image can be built successfully.
