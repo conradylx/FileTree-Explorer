@@ -1,0 +1,86 @@
+{
+  "name": "my-app",
+  "type": "folder",
+  "children": [
+    {
+      "name": "src",
+      "type": "folder",
+      "children": [
+        {
+          "name": "components",
+          "type": "folder",
+          "children": [
+            {
+              "name": "ui",
+              "type": "folder",
+              "children": [
+                { "name": "Button.tsx", "type": "file", "size": 512 },
+                { "name": "Input.tsx", "type": "file", "size": 340 },
+                { "name": "Modal.tsx", "type": "file", "size": 890 }
+              ]
+            },
+            { "name": "Navbar.tsx", "type": "file", "size": 1024 },
+            { "name": "Footer.tsx", "type": "file", "size": 640 }
+          ]
+        },
+        {
+          "name": "pages",
+          "type": "folder",
+          "children": [
+            { "name": "index.tsx", "type": "file", "size": 2048 },
+            { "name": "about.tsx", "type": "file", "size": 1200 },
+            { "name": "404.tsx", "type": "file", "size": 300 }
+          ]
+        },
+        {
+          "name": "hooks",
+          "type": "folder",
+          "children": [
+            { "name": "useAuth.ts", "type": "file", "size": 760 },
+            { "name": "useFetch.ts", "type": "file", "size": 430 }
+          ]
+        },
+        {
+          "name": "utils",
+          "type": "folder",
+          "children": [
+            { "name": "formatDate.ts", "type": "file", "size": 210 },
+            { "name": "validators.ts", "type": "file", "size": 580 }
+          ]
+        },
+        { "name": "main.tsx", "type": "file", "size": 180 },
+        { "name": "App.tsx", "type": "file", "size": 920 }
+      ]
+    },
+    {
+      "name": "public",
+      "type": "folder",
+      "children": [
+        { "name": "favicon.ico", "type": "file", "size": 4096 },
+        { "name": "logo.svg", "type": "file", "size": 1800 },
+        {
+          "name": "fonts",
+          "type": "folder",
+          "children": [
+            { "name": "inter-regular.woff2", "type": "file", "size": 98304 },
+            { "name": "inter-bold.woff2", "type": "file", "size": 102400 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tests",
+      "type": "folder",
+      "children": [
+        { "name": "App.test.tsx", "type": "file", "size": 1100 },
+        { "name": "Button.test.tsx", "type": "file", "size": 640 },
+        { "name": "useFetch.test.ts", "type": "file", "size": 820 }
+      ]
+    },
+    { "name": "package.json", "type": "file", "size": 1400 },
+    { "name": "tsconfig.json", "type": "file", "size": 320 },
+    { "name": "vite.config.ts", "type": "file", "size": 280 },
+    { "name": "README.md", "type": "file", "size": 3200 },
+    { "name": ".gitignore", "type": "file", "size": 120 }
+  ]
+}
